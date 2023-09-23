@@ -2,21 +2,25 @@ html{
     padding: 0%;
     margin: 0%;
     box-sizing: border-box;
+    background-color: papayawhip;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 h1{
    text-align: center;
-    color: darkblue;
+    color:whitesmoke;
+    background-color:  #34568B;
 }
 #top{
     text-align: center;
 }
-h2{
+h2{font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: lighter;
     text-transform: uppercase;
-    color: blue;
+    color:white;
+    background-color:#0072B5;
 }
 ul{
-    color: blueviolet;
+    color: #D2386C;
 }
 #edu{
     padding-left: 3%;
@@ -24,4 +28,5 @@ ul{
     color: black;
     font-style: oblique;
     font-weight: 100;
+    color:#363945;
 }
