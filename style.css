@@ -1,0 +1,27 @@
+html{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h1{
+   text-align: center;
+    color: darkblue;
+}
+#top{
+    text-align: center;
+}
+h2{
+    text-transform: uppercase;
+    color: blue;
+}
+ul{
+    color: blueviolet;
+}
+#edu{
+    padding-left: 3%;
+    margin: 2%;
+    color: black;
+    font-style: oblique;
+    font-weight: 100;
+}
