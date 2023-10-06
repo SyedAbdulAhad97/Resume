@@ -1,10 +1,17 @@
-html{
-    padding: 0%;
-    margin: 0%;
-    box-sizing: border-box;
-    background-color: papayawhip;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+html {
+    font-size: 22px;
 }
+
+body {
+    min-height: 100vh;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+    border-left: 1px solid #333;
+    border-right: 1px solid #333;
+}
+
+
 h1{
    text-align: center;
     color:whitesmoke;
@@ -23,10 +30,24 @@ ul{
     color: #D2386C;
 }
 #edu{
-    padding-left: 3%;
-    margin: 2%;
+    pad:50%;
     color: black;
     font-style: oblique;
     font-weight: 100;
     color:#363945;
 }
+
+.print{
+    display: none;
+}
+@media print{
+    .np{
+        display: none;
+    }
+    .print{
+        display: inline-block;
+    }
+}
+
+
+
